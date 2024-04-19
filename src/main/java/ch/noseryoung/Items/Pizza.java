@@ -17,6 +17,6 @@ public class Pizza extends Item {
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(Text.translatable("item.tutorial.custom_item.tooltip"));
+        tooltip.add(Text.translatable("item.more-materials.custom_item.tooltip"));
     }
 }
