@@ -1,3 +1,4 @@
 {
-    "item.more-materials.pizza": "Pizza"
+    "item.more-materials.pizza": "Pizza",
+    "item.more-materials.pizza.tooltip": "This is a Pizza!"
 }
