@@ -1,7 +1,13 @@
 package ch.noseryoung.Items;
 
+import java.util.List;
+
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.world.World;
 
 public class Pizza extends Item {
     public Pizza() {
@@ -11,6 +17,6 @@ public class Pizza extends Item {
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new TranslatableText("item.more-materials.pizza.tooltip"));
-    
+        tooltip.add(Text.translatable("item.tutorial.custom_item.tooltip"));
+    }
 }
