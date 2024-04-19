@@ -1,4 +1,5 @@
 {
     "item.more-materials.pizza": "Pizza",
-    "item.more-materials.pizza.tooltip": "This is a Pizza!"
+    "item.more-materials.pizza.tooltip": "This is a Pizza!",
+    "block.more-materials.reinforced_obsidian": "Reinforced Obsidian"
 }
